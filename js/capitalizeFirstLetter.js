@@ -4,7 +4,7 @@ function capitalizeFirstLetter(sentence) {
   const message = words.map((word) => {
     return word[0].toUpperCase() + word.slice(1);
   });
-  console.log(message);
+  console.log(message.join(' '));
 }
 
 capitalizeFirstLetter("hello abhishek");
